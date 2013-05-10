@@ -1,0 +1,5 @@
+lua-lemock (0.6-1) UNRELEASED; urgency=low
+
+  * Initial release. (Closes: #703166)
+
+ -- Victor Seva <linuxmaniac@torreviejawireless.org>  Thu, 07 Mar 2013 20:18:14 +0100

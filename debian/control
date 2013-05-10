@@ -1,0 +1,37 @@
+Source: lua-lemock
+Section: interpreters
+Priority: optional
+Maintainer: Victor Seva <linuxmaniac@torreviejawireless.org>
+Build-Depends: debhelper (>= 8), dh-lua (>= 16)
+Standards-Version: 3.9.3
+Vcs-Git: git://git.debian.org/git/pkg-lua/lua-lemock.git
+Vcs-Browser: http://git.debian.org/?p=pkg-lua/lua-lemock.git
+Homepage: http://lemock.luaforge.net/README.html
+
+Package: lua-lemock
+Architecture: any
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Provides: ${lua:Provides}
+Suggests: lua-unit
+XB-Lua-Versions: ${lua:Versions}
+Description: LeMock (Lua Easy Mock) for unit test
+ LeMock is a mock creation module intended for use together
+ with a unit test framework such as lunit or lunity. It is inspired by
+ EasyMock (for Java), and strives to be easy to use.
+
+Package: lua-lemock-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Depends: lua-unit (= ${binary:Version}), ${misc:Depends}
+Provides: ${lua:Provides}
+XB-Lua-Versions: ${lua:Versions}
+Description: LeMock (Lua Easy Mock) for unit test
+ LeMock is a mock creation module intended for use together
+ with a unit test framework such as lunit or lunity. It is inspired by
+ EasyMock (for Java), and strives to be easy to use.
+ .
+ This package contains docs and test files.
