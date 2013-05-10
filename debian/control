@@ -18,7 +18,7 @@ Suggests: lua-unit
 XB-Lua-Versions: ${lua:Versions}
 Description: LeMock (Lua Easy Mock) for unit test
  LeMock is a mock creation module intended for use together
- with a unit test framework such as lunit or lunity. It is inspired by
+ with a unit test framework such as lua-unit. It is inspired by
  EasyMock (for Java), and strives to be easy to use.
 
 Package: lua-lemock-dev
@@ -31,7 +31,7 @@ Provides: ${lua:Provides}
 XB-Lua-Versions: ${lua:Versions}
 Description: LeMock (Lua Easy Mock) for unit test
  LeMock is a mock creation module intended for use together
- with a unit test framework such as lunit or lunity. It is inspired by
+ with a unit test framework such as lua-unit. It is inspired by
  EasyMock (for Java), and strives to be easy to use.
  .
  This package contains docs and test files.
