@@ -1,4 +1,10 @@
-lua-lemock (0.6-1.1) UNRELEASED; urgency=low
+lua-lemock (0.6-1~bpo60+1) squeeze-backports; urgency=low
+
+  * Rebuild for squeeze-backports.
+
+ -- Victor Seva <vseva@sipwise.com>  Tue, 14 May 2013 13:00:09 +0200
+
+lua-lemock (0.6-1) UNRELEASED; urgency=low
 
   * Initial release. (Closes: #707713)
 
