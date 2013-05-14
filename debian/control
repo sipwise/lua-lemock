@@ -10,8 +10,6 @@ Homepage: http://lemock.luaforge.net/README.html
 
 Package: lua-lemock
 Architecture: any
-Multi-Arch: same
-Pre-Depends: multiarch-support
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Provides: ${lua:Provides}
 Suggests: lua-unit
@@ -24,8 +22,6 @@ Description: LeMock (Lua Easy Mock) for unit test
 Package: lua-lemock-dev
 Section: libdevel
 Architecture: any
-Multi-Arch: same
-Pre-Depends: multiarch-support
 Depends: lua-unit (= ${binary:Version}), ${misc:Depends}
 Provides: ${lua:Provides}
 XB-Lua-Versions: ${lua:Versions}
