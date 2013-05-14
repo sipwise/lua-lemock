@@ -1,4 +1,4 @@
-lua-lemock (0.6-1.1) UNRELEASED; urgency=low
+lua-lemock (0.6-1) UNRELEASED; urgency=low
 
   * Initial release. (Closes: #707713)
 
