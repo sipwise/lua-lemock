@@ -3,7 +3,7 @@ Upstream-Name: lemock
 Upstream-Contact: Tommy Petterson <ptp@lysator.liu.se>
 Source: https://github.com/LuaDist/lemock/
 
-File: *
+Files: *
 Copyright: 2009 Tommy Petterson <ptp@lysator.liu.se>
 License: MIT
  Permission is hereby granted, free of charge, to any person obtaining
@@ -26,6 +26,7 @@ License: MIT
 
 Files: debian/*
 Copyright: 2013 Victor Seva <linuxmaniac@torreviejawireless.org>
+           2013 Enrico Tassi <gareuselesinge@debian.org>
 License: GPL-2.0+
 
 License: GPL-2.0+
