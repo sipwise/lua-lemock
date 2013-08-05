@@ -1,5 +1,6 @@
-lua-lemock (0.6-1) UNRELEASED; urgency=low
+lua-lemock (0.6-1) unstable; urgency=low
 
+  [ Victor Seva ]
   * Initial release. (Closes: #707713)
 
- -- Victor Seva <linuxmaniac@torreviejawireless.com>  Fri, 10 May 2013 17:37:37 +0200
+ -- Victor Seva <linuxmaniac@torreviejawireless.com>  Mon, 05 Aug 2013 15:06:46 +0200
