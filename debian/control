@@ -26,7 +26,7 @@ Section: libdevel
 Architecture: any
 Multi-Arch: same
 Pre-Depends: multiarch-support
-Depends: lua-unit (= ${binary:Version}), ${misc:Depends}
+Depends: lua-lemock-dev (= ${binary:Version}), ${misc:Depends}
 Provides: ${lua:Provides}
 XB-Lua-Versions: ${lua:Versions}
 Description: LeMock (Lua Easy Mock) for unit test
