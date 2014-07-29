@@ -1,10 +1,4 @@
-lua-lemock (0.6-1+0~mr3.5.0.0) unstable; urgency=low
-
-  * New release.
-
- -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Thu, 10 Jul 2014 15:26:09 +0200
-
-lua-lemock (0.6-1+0~mr3.4.0.0) unstable; urgency=low
+lua-lemock (0.6-1+0~sipwise1) unstable; urgency=low
 
   [ Michael Prokop ]
   * [ffe8c15] MT#6523 Adjust Depends for binary version of lua-lemock-dev package
@@ -13,15 +7,7 @@ lua-lemock (0.6-1+0~mr3.4.0.0) unstable; urgency=low
   * [d45f1d5] MT#6523 merge changes from debian
   * [3cec4f3] MT#6517 unify Debian Packaging
 
-  [ Sipwise Jenkins Builder ]
-
- -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Mon, 26 May 2014 15:46:05 +0200
-
-lua-lemock (0.6-1+0~mr3.3) unstable; urgency=low
-
-  * New release.
-
- -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Sat, 01 Feb 2014 19:46:38 +0100
+ -- Alexander Lutay <alutay@sipwise.com>  Tue, 29 Jul 2014 17:33:48 +0200
 
 lua-lemock (0.6-1) unstable; urgency=low
 
